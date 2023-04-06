@@ -2,10 +2,10 @@
 const fs = require('fs');
 const S3 = require('aws-sdk/clients/s3')
 //const { GetObjectCommand, S3Client }= require('aws-sdk/client-s3')
-const AWS_BUCKET_NAME = "modaramo-images"
-const AWS_BUCKET_REGION = "us-east-1"
-const AWS_ACCESS_KEY = "AKIAWRVXHOWAS7MMJWLV"
-const AWS_SECRET_KEY = "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"
+const AWS_BUCKET_NAME = ""
+const AWS_BUCKET_REGION = ""
+const AWS_ACCESS_KEY = ""
+const AWS_SECRET_KEY = ""
 const bucketName = AWS_BUCKET_NAME
 const region = AWS_BUCKET_REGION
 const accessKeyId = AWS_ACCESS_KEY
